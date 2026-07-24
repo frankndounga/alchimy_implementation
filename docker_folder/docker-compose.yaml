@@ -1,0 +1,10 @@
+services:
+  db:
+    image: mysql:latest
+    ports:
+      - "3307:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=frank
+      - MYSQL_DATABASE=alchemy
+      - MYSQL_USER=frank
+      - MYSQL_PASSWORD=maloul
